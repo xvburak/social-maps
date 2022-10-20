@@ -1,15 +1,15 @@
+<script>
+    import HeroSection from "$lib/components/HeroSection.svelte";
+    import AboutSection from "$lib/components/AboutSection.svelte";
+</script>
+
 <main class="max-h-screen overflow-y-scroll snap snap-y snap-mandatory scroll-smooth">
-    <section class="w-full h-[90vh] snap-start bg-stone-200">🧭 SocialMaps</section>
-    <section class="w-full h-screen snap-start bg-blue-200">
-        <a href="#o-aplikaci">O aplikaci</a>
-        <div id="o-aplikaci">
-            hello
-        </div>
-    </section>
+    <HeroSection />
+    <AboutSection />
     <section class="w-full h-screen snap-start bg-green-200">Section 3</section>
     <section class="w-full h-screen snap-start bg-indigo-200">Section 4</section>
     <section class="w-full h-screen snap-start bg-yellow-200">Section 5</section>
-  </main>
+</main>
 
 
 
