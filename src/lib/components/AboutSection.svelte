@@ -1,6 +1,6 @@
 <section id="about"
     class="w-full h-screen snap-start bg-purple-500 grid grid-cols-1 sm:grid-cols-2   text-white">
-    <div class="p-4 md:p-8 pt-32">
+    <div class="p-4 pt-32 pb-16">
         <p>SocialMaps je aplikace, která nabízí kolektivně vytvářené mapy a (re)prezentuje místa, jež oproti jiným
             mapovým službám nejsou hierarchizována, neprochází schvalovacím procesem nadřazené a neznámé autority,
             nejsou nijak algoritmizována, nepodléhají placené reklamě a o veškerých procesech rozhoduje pouze
@@ -18,7 +18,7 @@
 
 <section id="about"
     class="w-full h-screen snap-start bg-purple-500 grid grid-cols-1 sm:grid-cols-2  text-white">
-    <div class="p-4 md:p-8 pt-32">
+    <div class="p-4 pt-32 pb-16">
         <p>Mapy totiž nejsou nikdy nositeli objektivní skutečnosti a nikdy nezaznamenávají mapované území neutrálním
             způsobem. Záleží vždy na tom, kdo a za jakým účelem je vytváří.</p>
         <p>A podle toho taky ovlivňují to, jakým způsobem o mapách smýšlíme, jak je používáme, jaká je jejich podstata,

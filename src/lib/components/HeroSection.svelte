@@ -1,7 +1,7 @@
 <section class="w-full flex justify-center items-center h-screen snap-start bg-stone-200">
-    <div class="">
+    <div class="p-4 pb-16">
 
-        <div class="bg-white p-4 rounded-full flex justify-between items-center">
+        <div class="bg-white p-4  rounded-full flex justify-between items-center">
             
             <div class="h-12 w-12 rounded-full mr-4">
                 <img src="/compass.png" alt="">

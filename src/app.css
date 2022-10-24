@@ -4,7 +4,7 @@
 
 html,
 body {
-  font-size: 12px;
+  font-size: 14px;
   scroll-behavior: smooth;
   @apply text-stone-600 antialiased
 }

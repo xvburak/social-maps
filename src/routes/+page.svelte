@@ -1,15 +1,24 @@
 <script>
     import HeroSection from "$lib/components/HeroSection.svelte";
     import AboutSection from "$lib/components/AboutSection.svelte";
+    import PrincipySection from "$lib/components/PrincipySection.svelte";
 </script>
 
-<main class="max-h-screen overflow-y-scroll snap snap-y snap-mandatory scroll-smooth">
+<main class="max-h-screen overflow-y-scroll snap snap-y snap-proximity scroll-smooth">
     <HeroSection />
     <AboutSection />
-    <section class="w-full h-screen snap-start bg-green-200">Section 3</section>
+    <PrincipySection />
+
     <section class="w-full h-screen snap-start bg-indigo-200">Section 4</section>
     <section class="w-full h-screen snap-start bg-yellow-200">Section 5</section>
 </main>
+
+<style>
+    main {
+        overflow-y: scroll;
+        scroll-snap-type: y proximity;
+    }
+</style>
 
 
 
