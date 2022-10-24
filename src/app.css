@@ -39,8 +39,8 @@ h1 {
   @apply text-5xl
 }
 
-p {
-  @apply mb-4
+h2 {
+  @apply text-2xl
 }
 
 @layer utilities {

@@ -17,5 +17,9 @@
 		"tailwindcss": "^3.1.8",
 		"vite": "^3.1.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"sheetdb-node": "^0.0.12",
+		"svelte-collapsible": "^0.2.1"
+	}
 }

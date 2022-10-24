@@ -7,7 +7,7 @@
     let isOpen = false
     const toggle = () => isOpen = !isOpen
 </script>
-    <button class="bg-stone-50 mb-4 p-4 rounded-md snap-none" on:click|preventDefault={toggle} aria-expanded={isOpen}>
+    <button class="bg-stone-50 mb-4 p-4 rounded-md snap-none" on:click={toggle} aria-expanded={isOpen}>
         <div class="flex justify-between w-full text-stone-800 text-2xl mb-4">
             <p class=" mb-0 ">{entry.header}</p>
             <p class="mb-0">＋</p>
@@ -17,7 +17,7 @@
         </div>
         {#if isOpen}
         <div class="text-stone-500 text-left" transition:slide={{ duration: 300 }}>
-            <p>{entry.content}</p>
+            <p class="mb-0">{entry.content}</p>
         </div>
         {/if}
     </button>

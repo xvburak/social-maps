@@ -32,3 +32,9 @@
 
     </div>
 </section>
+
+<style>
+    p {
+        @apply mb-4
+    }
+</style>

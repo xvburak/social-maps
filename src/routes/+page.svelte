@@ -1,13 +1,16 @@
 <script>
     import HeroSection from "$lib/components/HeroSection.svelte";
     import AboutSection from "$lib/components/AboutSection.svelte";
-    import PrincipySection from "$lib/components/PrincipySection.svelte";
+    import PrincipySection from "$lib/components/PrincipySectionSecond.svelte";
+
+    export let data
+    console.log(data.items)
 </script>
 
 <main class="max-h-screen overflow-y-scroll snap snap-y snap-proximity scroll-smooth">
     <HeroSection />
     <AboutSection />
-    <PrincipySection />
+    <PrincipySection stuff={data.items} />
 
     <section class="w-full h-screen snap-start bg-indigo-200">Section 4</section>
     <section class="w-full h-screen snap-start bg-yellow-200">Section 5</section>
