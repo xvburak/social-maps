@@ -12,13 +12,16 @@
 		"@sveltejs/kit": "next",
 		"autoprefixer": "^10.4.11",
 		"postcss": "^8.4.16",
+		"renderless-svelte": "^1.7.0",
 		"svelte": "^3.44.0",
+		"svelte-carousel": "^1.0.20",
 		"svelte-preprocess": "^4.10.7",
 		"tailwindcss": "^3.1.8",
 		"vite": "^3.1.0"
 	},
 	"type": "module",
 	"dependencies": {
+		"alpinejs": "^3.10.4",
 		"sheetdb-node": "^0.0.12",
 		"svelte-collapsible": "^0.2.1"
 	}
