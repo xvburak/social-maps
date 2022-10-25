@@ -1,13 +1,23 @@
 <script>
-   import Carousel from 'svelte-carousel'
-   import { browser } from '$app/env';
+    import { Splide, SplideSlide } from '@splidejs/svelte-splide';
+  import { loop } from 'svelte/internal';
 
-   let carousel; // for calling methods of the carousel instance
-  
-    const handleNextClick = () => {
-        carousel.goToNext()
+    const options = {
+        type: 'loop',
+        padding: '15%',
+        rewind: true,
+        focus: 'center',
+        perPage: 1,
+        gap: '2rem',
+        height: '65vh',
+        breakpoints: {
+            1000: {
+                perPage: 1,
+            },
+        },
     }
 </script>
+
 
 
 <section id="funkce" class="w-full h-screen snap-start bg-yellow-400  text-white">
@@ -21,14 +31,34 @@
 
 </section>
 
+<!-- <Splide aria-label="My Favorite Images">
+    <SplideSlide>
+      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.O-OmVOnOTsGFfDiJK0AdEAHaNL%26pid%3DApi%26h%3D160&f=1&ipt=a35b5a82bc345b3378e387ec7dc14f085f7639b5d16ea83792cefbdcaa1e06dd&ipo=images" alt="Image 1"/>
+    </SplideSlide>
+    <SplideSlide>
+      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.O-OmVOnOTsGFfDiJK0AdEAHaNL%26pid%3DApi%26h%3D160&f=1&ipt=a35b5a82bc345b3378e387ec7dc14f085f7639b5d16ea83792cefbdcaa1e06dd&ipo=images" alt="Image 2"/>
+    </SplideSlide>
+  </Splide> -->
+
 <section class="w-full h-screen snap-start bg-purple-500 text-white">
-    <div class="pt-32 pb-16 h-full">
-        <div class="snap-x mx-auto snap-mandatory h-full flex w-full space-x-4 overflow-scroll">
-            <div class="snap-center bg-amber-200 w-[80%] flex-shrink-0 h-full flex items-center justify-center text-8xl">1</div>
-            <div class="snap-center bg-teal-200 w-[80%] flex-shrink-0  h-full flex items-center justify-center text-8xl">2</div>
-            <div class="snap-center bg-cyan-200 w-[80%] flex-shrink-0 h-full flex items-center justify-center text-8xl">3</div>
-            <div class="snap-center bg-fuchsia-200 w-[80%] flex-shrink-0 h-full flex items-center justify-center text-8xl">4</div>
+    <div class="pt-32 pb-16 h-full ">
+        <div class="h-full bg-stone-100 flex flex-col justify-center">
+            <Splide options={ options } aria-label="My Favorite Images">
+                <SplideSlide class="bg-blue-400 h-full">
+                    <div>
+                        
+                    </div>
+                </SplideSlide>
+                <SplideSlide class="bg-green-400">
+                    <h2>🗺 Trasy</h2>
+                    <p>Tato funkce ti umožní poznávat lokace pomocí tras, které jsou rozděleny do mnoha kategorií. Můžeš tak zjistit kam ostatní uživatelé*ky rádi*y chodí, kam je nejvhodnější vyrazit s kočárkem, na bruslích, na kole, do přírody, na vodu, nebo třeba co jiné v daném místě zajímá — trasy vytvořené historičkami, přírodovědci, umělci, architektkami, ekoložkami nebo flanéry… Trasy můžeš tvořit i ty a umožnit tak ostatním poznat nová místa z tvé perspektivy!</p>
+                </SplideSlide>
+                <SplideSlide class="bg-amber-400">
+                    3
+                </SplideSlide>
+            </Splide>
         </div>
+
     </div>
 
 </section>
