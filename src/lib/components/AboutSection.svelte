@@ -1,4 +1,4 @@
-<section id="about" class=" bg-purple-500">
+<section id="about" class=" bg-purple-500 text-xl">
 
 <div class="w-full h-screen grid grid-cols-1 sm:grid-cols-2   text-white">
     <div class="p-8 pt-32 pb-16">

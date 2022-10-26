@@ -1,4 +1,4 @@
-<section class="w-full flex justify-center items-center h-screen  bg-stone-200">
+<section id="hero" class="w-full flex justify-center items-center h-screen  bg-stone-200">
     <div class="p-4 pb-16">
 
         <div class="bg-white p-4  rounded-full flex justify-between items-center">

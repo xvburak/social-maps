@@ -36,6 +36,15 @@ body {
   }
 }
 
+/* 2xl */
+@media (min-width: 1536px) {
+
+  html,
+  body {
+    font-size: 22px;
+  }
+}
+
 h1 {
   @apply text-5xl
 }
@@ -60,4 +69,13 @@ h2 {
   .snap-start {
     scroll-snap-align: start;
   }
+}
+
+.splide__slide {
+  opacity: 50%;
+}
+
+.splide__slide.is-active {
+  opacity: 100%;
+  border: none;
 }

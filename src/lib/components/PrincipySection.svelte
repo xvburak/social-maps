@@ -4,7 +4,7 @@
 </script>
 
 <section id="principy" class="min-h-screen w-full  bg-stone-400 text-white">
-    <div class="p-4 pt-32 pb-16 max-w-screen-lg mx-auto">
+    <div class="p-4 pt-32 pb-16 max-w-screen-xl mx-auto">
         { #each stuff as item }
             <PrincipyItem {item} />
         { /each }
