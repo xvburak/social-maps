@@ -36,6 +36,6 @@
 </section>
 <style>
     p {
-        @apply mb-4
+        @apply mb-4;
     }
 </style>
