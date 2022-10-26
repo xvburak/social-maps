@@ -20,8 +20,8 @@
 
 
 
-<section id="funkce" class="w-full h-screen snap-start bg-yellow-400  text-white">
-    <div class="p-8 pt-32 pb-16 text-3xl text-center">
+<section id="funkce" class="w-full h-screen flex items-center pb-16  top-0 bg-yellow-400  text-white">
+    <div class="p-8 pt-32 pb-16 text-3xl text-center max-w-screen-lg mx-auto">
         <p>Existuje nespočet možností jak konkrétní lokaci a místa v ní mapovat. Proto je důležité do procesu tvorby
             zapojit co nejvíce lidí, s nimiž lze navrhovat nové nástroje a funkce, jež nám mohou pomoci mapovat svět co
             nejpestřejším způsobem.</p>
@@ -40,7 +40,7 @@
     </SplideSlide>
   </Splide> -->
 
-<section class="w-full h-screen snap-start bg-purple-500 text-white">
+<section class="w-full h-screen bg-purple-500 text-white">
     <div class="pt-32 pb-16 h-full ">
         <div class="h-full bg-stone-100 flex flex-col justify-center">
             <Splide options={ options } aria-label="My Favorite Images">
@@ -50,8 +50,10 @@
                     </div>
                 </SplideSlide>
                 <SplideSlide class="bg-green-400">
-                    <h2>🗺 Trasy</h2>
-                    <p>Tato funkce ti umožní poznávat lokace pomocí tras, které jsou rozděleny do mnoha kategorií. Můžeš tak zjistit kam ostatní uživatelé*ky rádi*y chodí, kam je nejvhodnější vyrazit s kočárkem, na bruslích, na kole, do přírody, na vodu, nebo třeba co jiné v daném místě zajímá — trasy vytvořené historičkami, přírodovědci, umělci, architektkami, ekoložkami nebo flanéry… Trasy můžeš tvořit i ty a umožnit tak ostatním poznat nová místa z tvé perspektivy!</p>
+                    <div class="p-6 md:w-1/2">
+                        <h2 class="mb-6">🗺 Trasy</h2>
+                        <p>Tato funkce ti umožní poznávat lokace pomocí tras, které jsou rozděleny do mnoha kategorií. Můžeš tak zjistit kam ostatní uživatelé*ky rádi*y chodí, kam je nejvhodnější vyrazit s kočárkem, na bruslích, na kole, do přírody, na vodu, nebo třeba co jiné v daném místě zajímá — trasy vytvořené historičkami, přírodovědci, umělci, architektkami, ekoložkami nebo flanéry… Trasy můžeš tvořit i ty a umožnit tak ostatním poznat nová místa z tvé perspektivy!</p>
+                    </div>  
                 </SplideSlide>
                 <SplideSlide class="bg-amber-400">
                     3

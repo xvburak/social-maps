@@ -8,14 +8,14 @@
     // console.log(data.items)
 </script>
 
-<main class="max-h-screen overflow-y-scroll snap snap-y snap-proximity scroll-smooth">
+<main class="max-h-screen overflow-y-scroll scroll-smooth">
     <HeroSection />
     <AboutSection />
     <PrincipySection stuff={data.items} />
     <FunctionSection />
 
-    <section class="w-full h-screen snap-start bg-indigo-200">Section 4</section>
-    <section class="w-full h-screen snap-start bg-yellow-200">Section 5</section>
+    <!-- <section class="w-full h-screen snap-start bg-indigo-200">Section 4</section>
+    <section class="w-full h-screen snap-start bg-yellow-200">Section 5</section> -->
 </main>
 
 <style>

@@ -1,6 +1,7 @@
-<section id="about"
-    class="w-full h-screen snap-start bg-purple-500 grid grid-cols-1 sm:grid-cols-2   text-white">
-    <div class="p-4 pt-32 pb-16">
+<section id="about" class=" bg-purple-500">
+
+<div class="w-full h-screen grid grid-cols-1 sm:grid-cols-2   text-white">
+    <div class="p-8 pt-32 pb-16">
         <p>SocialMaps je aplikace, která nabízí kolektivně vytvářené mapy a (re)prezentuje místa, jež oproti jiným
             mapovým službám nejsou hierarchizována, neprochází schvalovacím procesem nadřazené a neznámé autority,
             nejsou nijak algoritmizována, nepodléhají placené reklamě a o veškerých procesech rozhoduje pouze
@@ -11,14 +12,13 @@
         <p>SocialMaps jsou nástrojem, jehož cílemje formovat komunitu, která svět jenom nekonzumuje, ale taky prožívá a
             pokouší se jej mapovat jinak, než počtem hvězdiček nebo mírou kyselosti kávy. ✨</p>
     </div>
-    <div class=" bg-purple-600">
+    <div class=" bg-purple-500">
 
     </div>
-</section>
+</div>
 
-<section id="about"
-    class="w-full h-screen snap-start bg-purple-500 grid grid-cols-1 sm:grid-cols-2  text-white">
-    <div class="p-4 pt-32 pb-16">
+<div  class="w-full h-screen  grid grid-cols-1 sm:grid-cols-2  text-white">
+    <div class="p-8 pt-32 pb-16">
         <p>Mapy totiž nejsou nikdy nositeli objektivní skutečnosti a nikdy nezaznamenávají mapované území neutrálním
             způsobem. Záleží vždy na tom, kdo a za jakým účelem je vytváří.</p>
         <p>A podle toho taky ovlivňují to, jakým způsobem o mapách smýšlíme, jak je používáme, jaká je jejich podstata,
@@ -28,11 +28,12 @@
             co nám mohou mapy sdělovat, jak se díky nim městem pohybujeme a jak své okolí vnímáme. Proto se je
             SocialMaps snaží zcela eliminovat.</p>
     </div>
-    <div class=" bg-purple-600">
+    <div class=" bg-purple-500">
 
     </div>
-</section>
 
+</div>
+</section>
 <style>
     p {
         @apply mb-4

@@ -7,7 +7,7 @@
     let isOpen = false
     const toggle = () => isOpen = !isOpen
 </script>
-    <button class="bg-stone-100 mb-4 p-4 rounded-md snap-start w-full" on:click={toggle} aria-expanded={isOpen}>
+    <button class="bg-stone-100 mb-4 p-4 rounded-md w-full" on:click={toggle} aria-expanded={isOpen}>
         <div class="flex justify-between w-full text-stone-800 text-2xl mb-4">
             <p class=" mb-0 ">{item.title}</p>
             {#if isOpen}
