@@ -7,6 +7,7 @@
 
 </script>
   
+
     <slot />
 
     <!-- {#if $page.url.pathname === '/'}
