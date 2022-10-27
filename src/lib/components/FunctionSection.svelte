@@ -13,11 +13,11 @@
         slideFocus: true,
         arrows: false,
         type: 'loop',
-        padding: '15%',
+        padding: '12%',
         rewind: true,
         focus: 'center',
         perPage: 1,
-        gap: '2rem',
+        gap: '1rem',
         height: '70vh',
         breakpoints: {
             1000: {
@@ -49,7 +49,7 @@
     </SplideSlide>
   </Splide> -->
 
-<section class="w-full h-screen bg-yellow-500 text-white">
+<section class="w-full h-screen bg-yellow-400 text-white">
     <div class="pt-24 pb-16 h-full ">
         <div class="h-full flex flex-col text-black justify-center">
             <Splide  options={ options } aria-label="My Favorite Images">
@@ -58,7 +58,7 @@
                 <SplideSlide class="rounded-xl bg-white ">
                     <div class="p-6 rounded-xl absolute w-full md:w-1/2 z-40">
                         <h2 class="mb-6">🌍 Mapa</h2>
-                        <p class="text-stone-400 text-xl md:text-lg 2xl:text-sm">Prostředí výchozí mapy je navrženo tak, aby uživatel*ka měl*a
+                        <p class="text-stone-400 text-base md:text-lg 2xl:text-sm">Prostředí výchozí mapy je navrženo tak, aby uživatel*ka měl*a
                             možnost objevovat a bezděčně se dovídat o dané lokaci přímo v jejím prostředí. Místa jsou
                             vytvářena místní komunitou, nejsou hierarchizována, ani o jejich přítomnosti nerozhoduje
                             placená reklama — ať už se nacházíš kdekoli, máš možnost poznat okolí prismatem lidí, kteří
@@ -73,7 +73,7 @@
                 <SplideSlide class=" bg-white rounded-xl">
                     <div class="rounded-xl p-6 absolute w-full md:w-1/2 z-40">
                         <h2 class="mb-6 ">🗺 Trasy</h2>
-                        <p class="text-stone-400 text-xl md:text-lg 2xl:text-sm">Tato funkce ti umožní poznávat lokace pomocí tras, které jsou
+                        <p class="text-stone-400 text-base md:text-lg 2xl:text-sm">Tato funkce ti umožní poznávat lokace pomocí tras, které jsou
                             rozděleny do mnoha kategorií. Můžeš tak zjistit kam ostatní uživatelé*ky rádi*y chodí, kam
                             je nejvhodnější vyrazit s kočárkem, na bruslích, na kole, do přírody, na vodu, nebo třeba co
                             jiné v daném místě zajímá — trasy vytvořené historičkami, přírodovědci, umělci,
@@ -87,7 +87,7 @@
                 <SplideSlide class="rounded-xl  bg-white">
                     <div class="rounded-xl p-6 absolute w-full md:w-1/2 z-40">
                         <h2 class="mb-6 ">😎 Profil a 🗃 Archiv</h2>
-                        <p class="text-stone-400 text-xl md:text-lg 2xl:text-sm">O všech místech a trasách, které jsi navštívil*a, máš v
+                        <p class="text-stone-400 text-base md:text-lg 2xl:text-sm">O všech místech a trasách, které jsi navštívil*a, máš v
                             profilu přehledné statistiky a najdeš zde i archiv. Ten funguje jako organizovaný index, v
                             němž si jednotlivá místa můžeš procházet, upravovat, třídit do kategorií nebo poslat jako
                             tip svým kamarádům*kám…</p>
@@ -101,7 +101,11 @@
     </div>
 
 </section>
-
+<div class="h-12 bg-red-500 text-white sticky bottom-0 flex flex-col justify-center z-10 w-full">
+    <div class="w-full">
+        <a class="text-center block" href="#contact">Stáhnout 👇</a>
+    </div> 
+</div>
 <style>
 
 

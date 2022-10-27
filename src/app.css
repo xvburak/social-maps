@@ -5,9 +5,17 @@
 
 html,
 body {
-  font-size: 14px;
+  font-size: 12px;
   scroll-behavior: smooth;
   @apply text-stone-600 antialiased
+}
+
+/* sm */
+@media (min-width: 640px) {
+  html,
+  body {
+    font-size: 14px;
+  }
 }
 
 /* md */
