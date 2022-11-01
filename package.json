@@ -11,6 +11,7 @@
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/adapter-netlify": "^1.0.0-next.81",
 		"@sveltejs/kit": "next",
+		"@types/jquery": "^3.5.14",
 		"autoprefixer": "^10.4.11",
 		"postcss": "^8.4.16",
 		"renderless-svelte": "^1.7.0",
@@ -24,6 +25,7 @@
 	"dependencies": {
 		"@splidejs/svelte-splide": "^0.2.9",
 		"alpinejs": "^3.10.4",
+		"jquery": "^3.6.1",
 		"sheetdb-node": "^0.0.12",
 		"svelte-collapsible": "^0.2.1"
 	}

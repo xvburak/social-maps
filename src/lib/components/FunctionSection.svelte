@@ -101,11 +101,13 @@
     </div>
 
 </section>
-<div class="h-12 bg-red-500 text-white sticky bottom-0 flex flex-col justify-center z-10 w-full">
+
+<div class="h-12 bg-red-500 text-white sticky bottom-0 block flex-col justify-center z-10 w-full">
     <div class="w-full">
         <a class="text-center block" href="#contact">Stáhnout 👇</a>
     </div> 
 </div>
+
 <style>
 
 
