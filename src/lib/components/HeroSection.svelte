@@ -25,11 +25,11 @@
     </div>
 </section>
 
-<!-- <div class="h-12 bar bg-purple-500 text-white sticky bottom-0 flex flex-col justify-center z-40 w-full">
+<div class="h-12 bar bg-purple-500 text-white sticky bottom-0 flex flex-col justify-center z-40 w-full">
     <div class="w-full">
         <a class="text-center block" href="#about">O aplikaci 👇</a>
     </div> 
-</div> -->
+</div>
 
 <style>
     .bar {

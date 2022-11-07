@@ -8,6 +8,7 @@
 		"preview": "vite preview"
 	},
 	"devDependencies": {
+		"@beyonk/svelte-scrollspy": "^2.1.2",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/adapter-netlify": "^1.0.0-next.81",
 		"@sveltejs/kit": "next",
@@ -27,6 +28,7 @@
 		"alpinejs": "^3.10.4",
 		"jquery": "^3.6.1",
 		"sheetdb-node": "^0.0.12",
-		"svelte-collapsible": "^0.2.1"
+		"svelte-collapsible": "^0.2.1",
+		"svelte-inview": "^3.0.1"
 	}
 }

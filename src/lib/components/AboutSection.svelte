@@ -53,11 +53,11 @@
 </div> -->
 </section>
 
-<!-- <div class="h-12 bg-stone-400 text-white sticky bottom-0 flex flex-col justify-center  z-30 w-full">
+<div class="h-12 bg-stone-400 text-white sticky bottom-0 flex flex-col justify-center  z-30 w-full">
     <div class="w-full">
         <a class="text-center block" href="#principy">Základní principy aplikace 👇</a>
     </div> 
-</div> -->
+</div>
 
 <style>
     p {
