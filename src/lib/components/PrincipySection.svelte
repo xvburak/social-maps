@@ -11,8 +11,15 @@
     </div>
 </section>
 
-<div class="h-12 bg-yellow-400 text-white sticky bottom-0 flex flex-col justify-center z-20 w-full">
+<div class="h-12 bg-yellow-400 text-white sticky omg flex flex-col justify-center z-20 w-full">
     <div class="w-full">
         <a class="text-center block" href="#funkce">Hlavní funkce aplikace 👇</a>
     </div> 
 </div>
+
+
+<style>
+    .omg {
+        bottom: env(safe-area-inset-bottom, 0px);
+    }
+</style>
