@@ -39,7 +39,7 @@
           flex-direction: column;
           align-items: center;
           justify-content: center;
-          min-height: 100vh;
+          min-height: 75vh;
           transition: .5s ease-in-out;
     }
       section.active {
