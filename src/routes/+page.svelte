@@ -5,6 +5,7 @@
     import PrincipySection from "$lib/components/PrincipySection.svelte";
     import FunctionSection from "$lib/components/FunctionSection.svelte";
     import ContactSection from "$lib/components/ContactSection.svelte";
+    import DropdownMenu from "$lib/components/DropdownMenu.svelte";
     import { page } from '$app/stores';
     export let data
     // console.log(data.items)
@@ -40,6 +41,8 @@
     }
 </script>
 
+<DropdownMenu />
+
 <main class="max-h-screen overflow-y-scroll scroll-smooth">
     <HeroSection />
     <AboutSection />
@@ -53,11 +56,11 @@
     <section class="w-full h-screen snap-start bg-yellow-200">Section 5</section> -->
 </main>
 
-{#if $page.url.pathname === "/#some-section"}
+<!-- {#if $page.url.pathname === "/#some-section"}
     <ActionBar link="/#some-section" copy="bubu" />
 {:else}
     <ActionBar link="/#some-section" copy="blabla" />
-{/if}
+{/if} -->
 
 
 
