@@ -11,7 +11,7 @@
     </div>
 </section>
 
-<div class="h-12 bg-yellow-400 text-white sticky omg flex flex-col justify-center z-20 w-full">
+<div class="h-12 bg-yellow-400 text-white omg flex flex-col justify-center z-20 w-full">
     <div class="w-full">
         <a class="text-center block" href="#funkce">Hlavní funkce aplikace 👇</a>
     </div> 
@@ -20,6 +20,7 @@
 
 <style>
     .omg {
-        bottom: env(safe-area-inset-bottom, 0px);
+        position: sticky;
+        bottom: calc(env(safe-area-inset-bottom) + 32px);
     }
 </style>
