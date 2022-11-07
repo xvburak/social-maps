@@ -2,29 +2,12 @@
     import ScrollLink from "$lib/components/scrollspy/ScrollLink.svelte";
     import ScrollSection from "$lib/components/scrollspy/ScrollSection.svelte";
     import ActionBar from "$lib/components/ActionBar.svelte";
+    import {
+        activeSectionId
+    } from '../../stores.js'
   </script>
   
   <main>
-      <aside>
-          <ScrollLink href="#section-1">
-            <div class="bg-red-500 w-full h-full flex flex-col justify-center">
-                <b>Section 1</b>
-            </div>
-          </ScrollLink>
-          
-          <ScrollLink href="#section-2">
-            <div class="bg-blue-500 w-full h-full flex flex-col justify-center">
-                <b>Section 2</b>
-            </div>
-          </ScrollLink>
-  
-          <ScrollLink href="#section-3">
-            <div class="bg-green-500 w-full h-full flex flex-col justify-center">
-                <b>Section 3</b>
-            </div>
-          </ScrollLink>
-      </aside>
-      
       <ScrollSection id="section-1">
           <h2>Section 1</h2>
       </ScrollSection>
@@ -39,8 +22,15 @@
       </ScrollSection>
   </main>
 
-  <!-- <ActionBar />
-   -->
+    {#if $activeSectionId === "section-1"}
+       <ActionBar link="#section-2" copy="section 2" />
+    {:else if $activeSectionId === "section-2"}
+        <ActionBar link="#section-3" copy="section 3" />
+    {:else if $activeSectionId === "section-3"}
+        <!-- <ActionBar link="#section-3" copy="section 3" /> -->
+    {/if}
+
+
   <style>
       :global(html,body) {
           background-color: #ddd;
@@ -54,7 +44,7 @@
       :global(main) {
           padding-bottom: 200px;
       }
-      
+/*       
       aside {
           display: flex;
           justify-content: center;
@@ -62,5 +52,5 @@
           position: fixed; bottom: 0rem; left: 0rem; z-index: 10;
           width: 100vw; 
           height: max-content;
-      }
+      } */
   </style>

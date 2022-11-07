@@ -12,6 +12,7 @@
         threshold: 1
     }
     const handleEnter = id => ($activeSectionId = id);
+    // console.log(id)
 </script>
 
 <section {id} class:active={$activeSectionId===id} use:inview={options} on:enter={()=> handleEnter(id)}>
@@ -21,6 +22,12 @@
           <svelte:self />
       {/if}
   </section>
+
+<!-- {#if $activeSectionId === "section-3"}
+    <p class="fixed z-50 top-0"> hello </p>
+{:else}
+    <p class="fixed z-50 top-0"> bye </p>
+{/if} -->
   
   <style>
     section {
@@ -32,7 +39,7 @@
           flex-direction: column;
           align-items: center;
           justify-content: center;
-          min-height: 90vh;
+          min-height: 100vh;
           transition: .5s ease-in-out;
     }
       section.active {
