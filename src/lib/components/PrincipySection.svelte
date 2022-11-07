@@ -21,6 +21,6 @@
 <style>
     .omg {
         position: sticky;
-        bottom: calc(env(safe-area-inset-bottom) + 32px);
+        bottom: env(safe-area-inset-bottom);
     }
 </style>
